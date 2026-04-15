@@ -1,0 +1,86 @@
+/*
+
+filename: [Napawuth Homsa-ard]
+
+author: [Napawuth Homsa-ard]
+
+created: [01/04/2026]
+
+last modified: [01/04/2026]
+
+description: [html files it refers to lab04.html]
+
+*/
+
+/*****CSS Rule styles *****/
+/*H1 styles */
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+/*H2 styles */
+h2{
+    color: rgb(0,128,128);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+/*****elements selector styles *****/
+/*Universal selector for font-family and color */
+*{font-family: "calibri", sans-serif;}
+*{color: #2F4F4F;}   
+ /*group for font-family for h1,h2,h3 */
+h1, h2, h3 { 
+    font-family: "arial", sans-serif; 
+}
+ /*group for table border */
+table, td, tr,th {
+    border: 1px solid black;
+}     
+/*aside and footer styles */
+ aside, footer {
+    font-style: italic; 
+}  
+
+ /*****ID selector styles ******/
+ /*h2 image style */
+ #images {
+         text-align : center;
+         }
+
+#heading_style {
+    color: red;
+} 
+
+/*****class selector styles *****/
+/*Class for Navigation styles */
+.special {
+          color: darkorange;
+          font-weight:bold;
+}
+.table_style {
+          text-align: right;
+}   
+
+
+/****Contextual selector styles *****/
+/*nav a styles */
+nav a {
+          text-decoration: none;
+          padding:0.2em 0.6em;
+          border: 4px solid #ccc;
+         } 
+ol ul {
+    list-style-type: square;
+}
+
+/***Pseudo-class styles *****/
+aside:hover{
+    opacity: 0;
+}        
+a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}  
